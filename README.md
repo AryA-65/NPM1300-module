@@ -18,9 +18,9 @@ Current specs of the board:
 
 ## Documents and Links
 List of all documents used to make the board:
-- [Reference layout used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/npm1300_qeaa_config1_pcb.pdf)
-- [Schematic used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/npm1300_qeaa_config1_schematic.pdf)
-- [BOM used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/npm1300_qeaa_config1_bom.xls)
+- [Reference layout used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_pcb.pdf)
+- [Schematic used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_schematic.pdf)
+- [BOM used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_bom.xls)
 - [nPM1300](https://www.nordicsemi.com/Products/nPM1300)
 - [nPM1300 reference layouts, production files and BOM](https://www.nordicsemi.com/Products/nPM1300/Downloads#infotabs)
 - [Other documentation related to the nPM1300](https://docs.nordicsemi.com/category/npm1300-category)
