@@ -27,7 +27,7 @@ List of all documents used to make the board:
 - [Other documentation related to the nPM1300](https://docs.nordicsemi.com/category/npm1300-category)
 
 ## 3rd Party Parts
-All third party parts are accessible in the [3rd Party Components folder](https://github.com/AryA-65/NPM1300-module/tree/main/3rd%20Party%20Components). This folder also includes the symbol and footprint of the module itself
+All third party parts are accessible in the [3rd Party Components folder](https://github.com/AryA-65/NPM1300-module/tree/main/3rd%20Party%20Components). This folder also includes the symbol and footprint of the module itself.
 
 ## License
-MIT License
+[MIT License](https://github.com/AryA-65/NPM1300-module/blob/main/LICENSE)
