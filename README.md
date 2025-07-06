@@ -17,6 +17,9 @@ Current specs of the board:
 - 5 GPIO pins (GPIO0 & GPIO1 are in use, set respectively as reset and interrup)
 - charging speed of 32-800mA (provided from the nPM1300 datasheet)
 
+## Issues
+Currently, the board does not have any pins for the cc1 and cc2 pads of the nPM1300. This is a crucial mistake, the ccx lines allow usb hosts to be aware of a connected device, whether it being a wall charger, a computer, etc. Without these lines connected, the usb host will only allow data transfer, but now power will be delivered. Make sure to connect usb ccx lines to a 5.1k resistor on the usb port side.
+
 ## Documents and Links
 List of all documents used to make the board:
 - [Reference layout used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_pcb.pdf)
