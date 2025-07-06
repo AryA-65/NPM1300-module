@@ -18,7 +18,7 @@ Current specs of the board:
 - charging speed of 32-800mA (provided from the nPM1300 datasheet)
 
 ## Issues
-Currently, the board does not have any pins for the cc1 and cc2 pads of the nPM1300. This is a crucial mistake, the ccx lines allow usb hosts to be aware of a connected device, whether it being a wall charger, a computer, etc. Without these lines connected, the usb host will only allow data transfer, but now power will be delivered. Make sure to connect usb ccx lines to a 5.1k resistor on the usb port side.
+Currently, the board does not have any pins for the cc1 and cc2 pads of the nPM1300. This is a crucial mistake, the ccx lines allow usb hosts to be aware of a connected device, whether it being a wall charger, a computer, etc. Without these lines connected, the usb host will only allow data transfer, but no power will be delivered. Make sure to connect usb ccx lines to a 5.1k resistor on the usb port side.
 
 ## Documents and Links
 List of all documents used to make the board:
