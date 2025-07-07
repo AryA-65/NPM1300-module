@@ -5,16 +5,20 @@ The nPM1300 is a power management ic created and sold by Nordic Semi, intended t
 <img src="https://github.com/user-attachments/assets/bd7bcb2e-3bf9-4db7-8470-77d1425b2a1c" width="300"/>
 
 ## Disclaimer
-I OWN NONE OF THE RIGHTS TO THE NPM1300, IT IS A PRODUCT MADE AND SOLD BY NORDIC SEMI. THIS BOARD IS INTENDED TO MAKE INTEGRATION OF THE IC EASIER INTO PROJECTS.
+I OWN NONE OF THE RIGHTS TO THE NPM1300, IT IS A PRODUCT MADE AND SOLD BY NORDIC SEMI. THIS BOARD IS INTENDED TO MAKE INTEGRATION OF THE IC SIMPLER AND HASTLE FREE.
 
 ## Board Info
 Current specs of the board:
-- 26.5x29.5mm footprint
+- 26.5mm*29.5mm footprint
 - 8 breakout pins per side
+- 9 ground pins and 3 Vout2 pins (for orientation independent wiring)
 - Buck converters and LDOs enabled (buck converter voltage is set by placing a resistor on the appropriate Vset pin, check page 47 in the nPM1300 datasheet provided below)
 - 3 led pins (programmable via host device)
 - 5 GPIO pins (GPIO0 & GPIO1 are in use, set respectively as reset and interrup)
 - charging speed of 32-800mA (provided from the nPM1300 datasheet)
+
+## Issues
+Currently, the board does not have any pins for the cc1 and cc2 pads of the nPM1300. This is a crucial mistake, the ccx lines allow usb hosts to be aware of a connected device, whether it being a wall charger, a computer, etc. Without these lines connected, the usb host will only allow data transfer, but no power will be delivered. Make sure to connect usb ccx lines to a 5.1k resistor on the usb port side.
 
 ## Documents and Links
 List of all documents used to make the board:
@@ -25,5 +29,8 @@ List of all documents used to make the board:
 - [nPM1300 reference layouts, production files and BOM](https://www.nordicsemi.com/Products/nPM1300/Downloads#infotabs)
 - [Other documentation related to the nPM1300](https://docs.nordicsemi.com/category/npm1300-category)
 
+## 3rd Party Parts
+All third party parts are accessible in the [3rd Party Components folder](https://github.com/AryA-65/NPM1300-module/tree/main/3rd%20Party%20Components). This folder also includes the symbol and footprint of the module itself.
+
 ## License
-MIT License
+[MIT License](https://github.com/AryA-65/NPM1300-module/blob/main/LICENSE)
