@@ -2,14 +2,26 @@
 The nPM1300 is a power management IC created and sold by Nordic Semi, intended to be paired with their nRF lineup but can be used by any microcontroller. The nPM1300-module, based on the provided pcb reference layout by Nordic, allows the implementation of a power management whilst being cost effective.
 
 ## Board Info
-Current specifications:
-- 25.8mm x 25.8mm footprint
-- 7 breakout pins per side
-- Buck converters and LDOs enabled (buck converter voltage is set by placing a resistor on the appropriate Vset pin, check page 47 in the nPM1300 datasheet provided below)
-- Onboard programmable led
+<table>
+  <tr>
+    <td>
 
-<img src="https://github.com/user-attachments/assets/556ab214-c438-42d7-bac3-bc9d08069bf9" width=300>
-<img src="https://github.com/user-attachments/assets/7cc15b91-ac2f-4b15-a4f8-3c513186fc7b" width=300>
+Current specifications:
+
+- 25.8mm x 25.8mm footprint  
+- 7 breakout pins per side  
+- Buck converters and LDOs enabled (buck converter voltage is set by placing a resistor on the appropriate Vset pin, check page 47 in the nPM1300 datasheet provided below)  
+- Onboard programmable LED
+
+    </td>
+    <td>
+
+<img src="https://github.com/user-attachments/assets/556ab214-c438-42d7-bac3-bc9d08069bf9" width="300"><br>
+<img src="https://github.com/user-attachments/assets/7cc15b91-ac2f-4b15-a4f8-3c513186fc7b" width="300">
+
+    </td>
+  </tr>
+</table>
 
 ## Updates
 Older revisions can be found in "archive" branch:
