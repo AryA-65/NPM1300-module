@@ -5,21 +5,16 @@ The nPM1300 is a power management IC created and sold by Nordic Semi, intended t
 <table>
   <tr>
     <td>
-
 Current specifications:
 
 - 25.8mm x 25.8mm footprint  
 - 7 breakout pins per side  
-- Buck converters and LDOs enabled (buck converter voltage is set by placing a resistor on the appropriate Vset pin, check page 47 in the nPM1300 datasheet provided below)  
+- Buck converters and LDOs enabled (buck converter voltage is set by placing a resistor on the appropriate Vset pin, check page 47 in the nPM1300 datasheet)  
 - Onboard programmable LED
-
     </td>
     <td>
-
-<img src="https://github.com/user-attachments/assets/556ab214-c438-42d7-bac3-bc9d08069bf9" width="300"><br>
-<img src="https://github.com/user-attachments/assets/7cc15b91-ac2f-4b15-a4f8-3c513186fc7b" width="300">
-
-    
+      <img src="https://github.com/user-attachments/assets/556ab214-c438-42d7-bac3-bc9d08069bf9" width="300"><br>
+      <img src="https://github.com/user-attachments/assets/7cc15b91-ac2f-4b15-a4f8-3c513186fc7b" width="300">
   </tr>
 </table>
 
@@ -49,6 +44,7 @@ List of all documents used to make the board:
 - [Nordic Semi nPM1300](https://www.nordicsemi.com/Products/nPM1300)
 - [nPM1300 reference layouts, production files and BOM](https://www.nordicsemi.com/Products/nPM1300/Downloads#infotabs)
 - [Other documentation related to the nPM1300](https://docs.nordicsemi.com/category/npm1300-category)
+- [Full nPM1300 datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6443/NPM1300-QEAA-R.pdf)
 
 ## License
 [MIT License](https://github.com/AryA-65/NPM1300-module/blob/main/LICENSE)
