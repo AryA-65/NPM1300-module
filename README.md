@@ -48,7 +48,7 @@ List of all documents related to the board:
 - [Full nPM1300 datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6443/NPM1300-QEAA-R.pdf)
 
 ## Previous Revisions
-[Rev_1](https://github.com/AryA-65/NPM1300-module/tree/archive)
+- [Rev_1](https://github.com/AryA-65/NPM1300-module/tree/archive)
 
 ## License
 This project uses the [MIT License](https://github.com/AryA-65/NPM1300-module/blob/main/LICENSE).
