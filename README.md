@@ -19,7 +19,7 @@ Current specifications:
 <img src="https://github.com/user-attachments/assets/556ab214-c438-42d7-bac3-bc9d08069bf9" width="300"><br>
 <img src="https://github.com/user-attachments/assets/7cc15b91-ac2f-4b15-a4f8-3c513186fc7b" width="300">
 
-    </td>
+    
   </tr>
 </table>
 
