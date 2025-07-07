@@ -1,3 +1,3 @@
 ## List of all the parts
-|Part Name|Part Size|Part Specs|Link|
-|---------|---------|----------|----|
+|Part Name|Part Size|Part Specs|Link|Quantity|
+|---------|---------|----------|----|--------|
