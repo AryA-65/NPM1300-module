@@ -22,15 +22,15 @@ Currently, the board does not have any pins for the cc1 and cc2 pads of the nPM1
 
 ## Documents and Links
 List of all documents used to make the board:
-- [Reference layout used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_pcb.pdf)
-- [Schematic used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_schematic.pdf)
-- [BOM used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/main/Docs/npm1300_qeaa_config1_bom.xls)
+- [Reference layout used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/archive/Docs/npm1300_qeaa_config1_pcb.pdf)
+- [Schematic used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/archive/Docs/npm1300_qeaa_config1_schematic.pdf)
+- [BOM used for the board - property of Nordic Semi](https://github.com/AryA-65/NPM1300-module/blob/archive/Docs/npm1300_qeaa_config1_bom.xls)
 - [nPM1300](https://www.nordicsemi.com/Products/nPM1300)
 - [nPM1300 reference layouts, production files and BOM](https://www.nordicsemi.com/Products/nPM1300/Downloads#infotabs)
 - [Other documentation related to the nPM1300](https://docs.nordicsemi.com/category/npm1300-category)
 
 ## 3rd Party Parts
-All third party parts are accessible in the [3rd Party Components folder](https://github.com/AryA-65/NPM1300-module/tree/main/3rd%20Party%20Components). This folder also includes the symbol and footprint of the module itself.
+All third party parts are accessible in the [3rd Party Components folder](https://github.com/AryA-65/NPM1300-module/tree/archive/3rd%20Party%20Components). This folder also includes the symbol and footprint of the module itself.
 
 ## License
-[MIT License](https://github.com/AryA-65/NPM1300-module/blob/main/LICENSE)
+[MIT License](https://github.com/AryA-65/NPM1300-module/blob/archive/LICENSE)
